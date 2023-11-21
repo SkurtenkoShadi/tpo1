@@ -126,10 +126,10 @@ git submodule update
 <li>
 <h3>Тест И1</h3>
 <ul>
-<li>Методы: int fibonachi(int num), double my_sqrt(double a, double b, double c)</li>
+<li>Методы: int fibonachi(int num), double my_sqrt(double* res, double a, double b, double c)</li>
 <li>Описание: Проверяем, можно ли использовать результат работы функции my_sqrt в функции fibonachi</li>
-<li>Входные данные: 4</li>
-<li>Ожидаемый результат: 1.73205</li>
+<li>Входные данные: 2 -1 -15</li>
+<li>Ожидаемый результат: 2  0</li>
 </ul>
 </li>
 
